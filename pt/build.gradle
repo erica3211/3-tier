@@ -52,17 +52,4 @@ tasks.named('test') {
 bootBuildImage {
 imageName = "groupware"
 }
-// PT 모듈 설정
-project(':pt') {
-    apply plugin: 'java'
-    apply plugin: 'org.springframework.boot'
-}
 
-// BT 모듈 설정
-project(':bt') {
-    apply plugin: 'java'
-    apply plugin: 'org.springframework.boot'
-    bootJar {
-        classifier = 'bt'
-    }
-}
