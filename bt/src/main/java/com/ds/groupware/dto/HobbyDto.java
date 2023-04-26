@@ -25,6 +25,6 @@ public class HobbyDto {
 	public void setHobby_cd(String hobby_cd) {
 		this.hobby_cd = hobby_cd;
 	}
-	
+
 	
 }
