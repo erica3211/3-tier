@@ -1,5 +1,4 @@
 package com.ds.groupware.dto;
-// 검색어
 
 import lombok.Getter;
 import lombok.Setter;
